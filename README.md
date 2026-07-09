@@ -6,10 +6,9 @@ This project delivers a high-level **Product Analytics Dashboard** for **Asces S
 ---
 
 ## 🛠️ Tech Stack & Tools
+* **Database & Data Extraction:** MySQL (Structured queries for data preparation)
 * **Data Visualization & Modelling:** Power BI
-* **Data Transformation:** Power Query (ETL process)
 * **Analytical Calculations:** DAX (Data Analysis Expressions) for Time-Intelligence / YoY metrics.
-
 ---
 
 ## 💡 Business Case Analysis (STAR Framework)
@@ -21,11 +20,10 @@ This project delivers a high-level **Product Analytics Dashboard** for **Asces S
 My task was to design and develop a single-page **Product Analytics Dashboard** that addresses management's core requirements, calculates critical Year-over-Year growth, and introduces advanced product-level breakdown metrics to assist executive leadership in strategic forecasting.
 
 ### 3. Action (Our Approach)
-* **Data Extraction & Cleaning:** Imported raw sales data into Power BI and utilized Power Query to clean date formats, standardize country records, and validate financial parameters.
-* **Data Modelling:** Built a robust star-schema data model, implementing a dedicated Date/Calendar table to enable accurate time-series analysis.
-* **DAX Engineering:** Developed advanced DAX measures to calculate dynamic metrics, specifically **YoY Profit Change %** and **YoY Unit Sales Change %**.
-* **UI/UX Visual Design:** Designed a clean, executive-focused 1-page layout ensuring a high-impact, scannable data hierarchy for stakeholders.
-
+* **Step 1: SQL Data Extraction** – Wrote optimized SQL queries to aggregate raw global sales logs, filter inconsistencies, and prepare clean tables segmented by country and discount bands.
+* **Step 2: Data Modelling** – Imported the refined datasets into Power BI and established a star-schema model with a dedicated Date/Calendar table for time-series tracking.
+* **Step 3: DAX Engineering** – Developed advanced DAX measures to calculate dynamic metrics, specifically **YoY Profit Change %** and **YoY Unit Sales Change %**.
+* **Step 4: UI/UX Visual Design** – Designed a clean, executive-focused 1-page layout ensuring a high-impact, scannable data hierarchy for stakeholders.
 ---
 
 ## 📊 Dashboard Breakdown & Management Requirements
